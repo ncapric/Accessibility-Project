@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <img src="./images/Logo.png" alt="Logo" class="header__logo" />
+        <nav class="header__list" aria-label="Main">
+          <ul class="header__navigation">
+            <li class="header__navigation-item">About us <span>|</span></li>
+            <li class="header__navigation-item">Contact Us <span>|</span></li>
+            <li class="header__navigation-item">Blog <span>|</span></li>
+            <li class="header__navigation-item">Site Map <span>|</span></li>
+            <li class="header__navigation-item">Eng <span>&#9013;</span></li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <input
+            type="text"
+            placeholder="Search this site"
+            class="header__search-input"
+          />
+          <img
+            src="./images/search-icon.png"
+            alt="search search-icon"
+            class="search-icon"
+          />
+        </div>
+      </header>
+
+      <div class="hero-section">
+        <div class="hero-section__about">
+          <h1 class="hero-section__title">Lorem ipsum dolor sit amet</h1>
+          <h2 class="hero-section__text-title">Lorem ipsum dolor sit amet</h2>
+
+          <p class="hero-section__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
+            tincidunt posuere eu risus cursus. Senectus sed maecenas viverra
+            tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna
+            hendrerit morbi sed gravida. Nulla aliquam ac diam amet, sagittis,
+            ut ultricies. Urna hendrerit morbi sed gravida. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit.
+          </p>
+
+          <button class="hero-section__button">Buy now</button>
+        </div>
+        <img
+          src="./images/green-leaves.png"
+          alt="Image of green leaves"
+          class="hero-section__image"
+        />
+      </div>
+
+      <div class="about">
+        <div class="about-card">
+          <img
+            src="./images/about-us-green-leaves.png"
+            alt="Image of green leaves"
+            class="about-card__image"
+          />
+
+          <div class="about-card__info">
+            <h2 class="about-card__title">About us</h2>
+
+            <p class="about-card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
+              tincidunt posuere eu risus cursus. Senectus sed maecenas viverra
+              tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies.
+              Urna hendrerit morbi sed gravida. Nulla aliquam ac diam amet,
+              sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
+              tincidunt posuere eu risus cursus.
+            </p>
+
+            <a href="#" class="about-card__link">Learn more about &#8594;</a>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <img
+            src="./images/about-us-green-leaves.png"
+            alt="Image of green leaves"
+          />
+
+          <div class="about-card__info">
+            <h2>About us</h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
+              tincidunt posuere eu risus cursus. Senectus sed maecenas viverra
+              tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies.
+              Urna hendrerit morbi sed gravida. Nulla aliquam ac diam amet,
+              sagittis, ut ultricies. Urna hendrerit morbi sed gravida. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
+              tincidunt posuere eu risus cursus.
+            </p>
+
+            <a href="#">Learn more about &#8594;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <div class="contact-us">
+          <h1 class="contact-us__title">Contact us</h1>
+
+          <p class="contact-us__description">
+            Fill up the form and our Team will get back to you within 24 hours.
+            Happy to see your message!
+          </p>
+
+          <ul class="contact-us__info">
+            <li>
+              <img
+                src="./images/facebook.png"
+                alt="Facebook icon"
+                class="contact-us__icon"
+              />+380 93 1532 456
+            </li>
+            <li>
+              <img
+                src="./images/facebook.png"
+                alt="Facebook icon"
+                class="contact-us__icon"
+              />example@gmail.com
+            </li>
+            <li>
+              <img
+                src="./images/facebook.png"
+                alt="Facebook icon"
+                class="contact-us__icon"
+              />Pidmurma 5, Lviv
+            </li>
+          </ul>
+
+          <div class="contact-us__social">
+            <img
+              src="./images/facebook.png"
+              alt="Facebook icon"
+              class="contact-us__social-icon"
+            />
+            <img
+              src="./images/facebook.png"
+              alt="Facebook icon"
+              class="contact-us__social-icon"
+            />
+            <img
+              src="./images/facebook.png"
+              alt="Facebook icon"
+              class="contact-us__social-icon"
+            />
+          </div>
+        </div>
+
+        <div class="form">
+          <form>
+            <fieldset class="form__personal-info">
+              <legend>Personal Information</legend>
+
+              <div class="form__first-name">
+                <label for="first-name-input">First name</label>
+                <input
+                  type="text"
+                  id="first-name-input"
+                  class="form__first-name-input"
+                />
+              </div>
+
+              <div class="form__last-name">
+                <label for="last-name-input">Last name</label>
+                <input
+                  type="text"
+                  id="last-name-input"
+                  class="form__last-name-input"
+                />
+              </div>
+
+              <div class="form__email">
+                <label for="email-input">Email</label>
+                <input
+                  type="email"
+                  id="email-input"
+                  class="form__email-input"
+                />
+              </div>
+
+              <div class="form__phone-number">
+                <label for="phone-number-input">Phone number</label>
+                <input
+                  type="tel"
+                  id="phone-number-input"
+                  class="form__phone-number-input"
+                />
+              </div>
+            </fieldset>
+
+            <fieldset class="form__job-role">
+              <legend>Job Role</legend>
+
+              <div class="form__role-option">
+                <input type="radio" id="ui-developer" name="job-role" />
+                <label for="ui-developer">UI developer</label>
+              </div>
+
+              <div class="form__role-option">
+                <input type="radio" id="ux-designer" name="job-role" />
+                <label for="ux-designer">UI/UX Designer</label>
+              </div>
+
+              <div class="form__role-option">
+                <input type="radio" id="accessibility-expert" name="job-role" />
+                <label for="accessibility-expert">Accessibility Expert</label>
+              </div>
+
+              <div class="form__role-option">
+                <input
+                  type="radio"
+                  id="qa-engineer"
+                  name="job-role"
+                  value="qa-engineer"
+                />
+                <label for="qa-engineer">QA Engineer</label>
+              </div>
+
+              <div class="form__role-option">
+                <input type="radio" id="other" name="job-role" value="other" />
+                <label for="other">Other</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form__message">
+              <legend>Message</legend>
+
+              <textarea placeholder="Text here..."></textarea>
+            </fieldset>
+
+            <fieldset class="form__terms">
+              <legend>Terms and Conditions</legend>
+
+              <div class="form__terms-option">
+                <input type="checkbox" id="terms-1" />
+                <label for="terms-1">Accept the terms</label>
+              </div>
+
+              <div class="form__terms-option">
+                <input type="checkbox" id="terms-2" />
+                <label for="terms-2">Accept the terms</label>
+              </div>
+            </fieldset>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <section class="footer__subscribe">
+          <h2 class="footer__title">PlantMe</h2>
+
+          <p>
+            Subscribe and be the first to know about our news and promotions.
+          </p>
+
+          <form class="footer__form">
+            <input
+              type="email"
+              placeholder="example@gmail.com"
+              class="footer__email"
+            />
+            <button type="submit" class="footer__button">Subscribe</button>
+          </form>
+        </section>
+
+        <nav class="footer__navigation">
+          <p>About Us</p>
+          <p>Contact Us</p>
+          <p>Blog</p>
+          <p>Site map</p>
+        </nav>
+
+        <section class="footer__contact">
+          <p>Contacts</p>
+          <p class="footer__phone-number">+38 063 072 0121</p>
+          <a href="mailto:plantme.store@gmail.com">plantme.store@gmail.com</a>
+
+          <div class="footer__payment-methods">
+            <img src="./images/visa.png" alt="Visa logo" />
+            <img src="./images/mastercard.png" alt="Mastercard logo" />
+          </div>
+        </section>
+      </footer>
+
+      <div class="rights-section">
+        <span>© 2022 PlantMe. All Rights Reserved</span>
+
+        <nav class="rights-section__links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of service</a>
+          <a href="#">Language</a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    max-width: 1440px;
+    width: 100%;
+
+    font-family: "Outfit", sans-serif;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 64px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .header__list {
+    margin-left: 77px;
+    flex: 1;
+  }
+
+  .header__navigation {
+    display: flex;
+  }
+
+  .header__navigation li {
+    list-style-type: none;
+    margin-right: 16px;
+  }
+
+  .header__navigation span {
+    margin-left: 16px;
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a6150;
+    border: 2px solid #3a6150;
+  }
+
+  .header__search input {
+    border: none;
+    width: 376px;
+    height: 48px;
+  }
+
+  .search-icon {
+    width: 48px;
+  }
+
+  .header__logo {
+    width: 34px;
+  }
+
+  .hero-section {
+    display: flex;
+
+    height: 732px;
+    background-color: rgb(237, 237, 237);
+  }
+
+  .hero-section__about {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 0 50px;
+    padding-bottom: 60px;
+
+    color: #3a6150;
+  }
+
+  .hero-section__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+  }
+
+  .hero-section__text-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .hero-section__text {
+    margin: 0 0 36px 0;
+
+    color: black;
+  }
+
+  .hero-section__button {
+    width: 196px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+
+    color: white;
+    background-color: #3a6150;
+  }
+
+  .hero-section__image {
+    flex: 1;
+
+    width: 648px;
+    padding: 24px 64px 60px 0;
+  }
+
+  .about {
+    display: flex;
+    gap: 18px;
+
+    margin: 80px 64px;
+  }
+
+  .about-card {
+    display: flex;
+    justify-content: center;
+
+    height: 290px;
+
+    background-color: #3a6150;
+  }
+
+  .about-card img {
+    height: 230px;
+    width: 180px;
+
+    margin: 24px 18px 35px 24px;
+
+    align-self: center;
+  }
+
+  .about-card__info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 24px 24px 35px 0;
+
+    color: white;
+  }
+
+  .about-card__info p {
+    margin: 0;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .about-card__info h2 {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .about-card__info a {
+    color: white;
+  }
+
+  .form-section {
+    display: flex;
+
+    padding: 80px 64px 120px;
+
+    background-color: #71837b;
+  }
+
+  .contact-us {
+    background-image: url(./images/contact-us-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 42px 25px 42px 42px;
+
+    flex: 1;
+    height: 637px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .contact-us h1 {
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.8px;
+  }
+
+  .contact-us ul {
+    list-style: none;
+
+    padding: 0;
+    margin-top: 56px;
+  }
+
+  .contact-us ul li {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+  }
+
+  .contact-us ul li img {
+    margin-right: 24px;
+  }
+
+  .contact-us__social {
+    margin-top: 210px;
+  }
+
+  .contact-us__social img {
+    margin-right: 20px;
+  }
+
+  .form {
+    flex: 2;
+
+    display: grid;
+
+    background-color: white;
+  }
+
+  .form__first-name-input,
+  .form__last-name-input,
+  .form__email-input,
+  .form__phone-number-input {
+    width: 416px;
+    height: 44px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 0 64px;
+  }
+
+  .footer__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .footer p {
+    margin-bottom: 31px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.1px;
+  }
+
+  .footer__button {
+    height: 54px;
+    width: 195px;
+
+    color: white;
+    background-color: #3a6150;
+  }
+
+  .footer__email {
+    height: 54px;
+    width: 308px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-right: 30px;
+
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  .footer__phone-number {
+    color: #00000099;
+  }
+
+  .footer a {
+    color: #00000099;
+  }
+
+  .footer img {
+    margin-top: 40px;
+  }
+
+  .rights-section {
+    margin-top: 24px;
+    padding: 24px 0;
+    padding-left: 400px;
+    padding-right: 30px;
+
+    border-top: 1px solid grey;
+
+    text-align: center;
+  }
+
+  .rights-section__links {
+    color: #11111180;
+    float: right;
+  }
+
+  .rights-section__links a {
+    margin-left: 20px;
+  }
+</style>
